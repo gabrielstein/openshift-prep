@@ -1,0 +1,16 @@
+---
+- name: Install Tools
+  yum: 
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - wget 
+    - git 
+    - net-tools 
+    - bind-utils 
+    - iptables-services
+    - bridge-utils 
+    - bash-completion 
+    - kexec-tools 
+    - sos 
+    - psacct

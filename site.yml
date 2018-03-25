@@ -1,0 +1,7 @@
+---
+- name: Install tools and Openshift repos
+  hosts: localhost
+  connection: local
+  roles:
+    - repos
+    - tools
