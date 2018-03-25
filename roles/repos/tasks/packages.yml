@@ -6,4 +6,4 @@
   with_items:
     - centos-release-openshift-origin37 
     - centos-release-paas-common
-    - epel
+    - epel-release
