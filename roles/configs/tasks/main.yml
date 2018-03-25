@@ -1,13 +1,6 @@
 ---
- - import_tasks: tasks/packages.yml
+ - import_tasks: tasks/configs.yml
    become: yes
    become_user: root
    tags:
-     - packages
-
- - template:
-    src: /templates/docker-storage-setup.j2
-    dest: /etc/sysconfig/docker-storage-setup
-    owner: root
-    group: root
-    mode: 0644 
+     - configs
