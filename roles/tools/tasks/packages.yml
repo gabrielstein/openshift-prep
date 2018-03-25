@@ -14,3 +14,4 @@
     - kexec-tools 
     - sos 
     - psacct
+    - atomic-openshift-utils
