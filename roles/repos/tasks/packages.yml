@@ -1,8 +1,9 @@
 ---
-- name: Add Openshift Origin Repos
+- name: Add Openshift Origin 3.6 Repos
   yum: 
     name: "{{ item }}"
     state: present
   with_items:
     - centos-release-openshift-origin36 
     - centos-release-paas-common
+    - epel-release
