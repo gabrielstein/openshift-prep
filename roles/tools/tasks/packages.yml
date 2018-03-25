@@ -15,3 +15,4 @@
     - sos 
     - psacct
     - atomic-openshift-utils
+    - vim
